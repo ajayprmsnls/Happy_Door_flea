@@ -6,9 +6,12 @@ import s from "./Body.module.scss";
 import Button from 'antd/es/button';
 import Input from "antd/lib/input";
 
+
 const [NAME,Mobile,Email]=["NAME","Mobile","Email id"];
+
 const Body: FC = () => {
   
+  const [loading,load]=useState(3);
   return (
     <div className={`${s.container}`}>
       <div>
@@ -44,24 +47,31 @@ const Body: FC = () => {
     <h2>Enter Details Here!</h2>
     <>
     <div className={`${s.inputs}`}>
-        <Input className={`${s.name}`}
-          placeholder="Enter your Name"
-          value={NAME}
+        <Input className={`${s.input_box}`}
+          placeholder={NAME}
+          
+        />
+        <Input className={`${s.input_box}`}
+          placeholder={Mobile}
+          
         
         />
-        <Input className={`${s.name}`}
-          placeholder="Enter your Name"
-          value={Mobile}
+        <Input className={`${s.input_box}`}
+          placeholder={Email}
+          
         
         />
-        <Input className={`${s.name}`}
-          placeholder="Enter your Name"
-          value={Email}
         
-        />
       </div>
       </>
-    
+    <div className={`${s.Next}`} onClick={()=>{load(5)}}></div>
+    <div className={`${s.nextbox}`}>
+      
+      <h3>Next</h3>
+      <div className={`${s.loading}` } >
+        
+      </div>
+    </div>
   </div>
 
   
