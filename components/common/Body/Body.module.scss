@@ -7,6 +7,16 @@
   width: 100vw;
 
   margin: 0;
+
+  .title {
+    position: absolute;
+    top: 14vw;
+    left: 19vw;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 23vw;
+    font-weight: 800;
+  }
   h1 {
     font-size: 4.5vw;
     margin-bottom: -0.3em;
@@ -14,81 +24,43 @@
   }
   .human {
     position: absolute;
-    top: 45vh;
+    height: 39vw;
+    width: 39vw;
+    top: 23vw;
     left: 20%;
+  }
+  .sideimages {
+    position: relative;
+    top: -1vw;
+    left: 0vw;
   }
   .shock {
     position: relative;
-
-    top: 0vh;
+    height: 1vw;
+    width: 19vw;
+    top: -11vw;
     left: 14vw;
   }
   .wave {
     position: relative;
-    top: 26vh;
-    left: 38vw;
+    height: 15vw;
+    width: 15vw;
+    top: 13vw;
+    left: 40vw;
   }
+}
+@media only screen and (max-width: 767px) {
+  .shock {
+    height: 10vw;
+    width: 10vw;
+  }
+  .wave {
+    height: 8vw;
+    width: 8vw;
+  }
+  .human,
+  .sideimages,
   .title {
-    position: absolute;
-    top: 30vh;
-    left: 19vw;
-
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-  }
-  h2 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    position: absolute;
-    color: white;
-    top: 23vh;
-    left: 60vw;
-    font-size: 3.7vw;
-  }
-  .input_box {
-    position: relative;
-    border-radius: 1em;
-    top: -5vh;
-    left: 60vw;
-    width: 34vw;
-    padding: 3em;
-    height: 3.6vh;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-    padding: 4vh;
-    padding-left: 2vh;
-    font-size: 2.2vh;
-    font-family: "Poppins", sans-serif;
-    color: #ada9a9;
-    font-weight: 700;
-  }
-  .inputs {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-  }
-  h3 {
-    position: absolute;
-    top: 43vw;
-    left: 70vw;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-  }
-  .Next {
-    position: relative;
-    left: 64vw;
-    border-radius: 1em;
-    top: 3vw;
-    background-color: white;
-    height: 3vw;
-    width: 17vw;
-  }
-  .loading {
-    background-color: #ffcd00;
-    border-radius: 1em;
-    height: 3vw;
-    width: 3vw;
-    position: relative;
-    left: 64vw;
-    top: 0vw;
+    display: none;
   }
 }

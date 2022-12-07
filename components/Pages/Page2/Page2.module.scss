@@ -1,0 +1,82 @@
+@import "/styles/variables.scss";
+.count {
+  .title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    color: white;
+    top: 14vw;
+    left: 60vw;
+    font-size: 3.7vw;
+  }
+  .counter {
+    background-color: white;
+    height: 3.7vw;
+    width: 10vw;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 3px 4px 3px 0.1px rgb(0 0 0 / 25%);
+    font-weight: 500;
+    position: absolute;
+    color: black;
+    border-radius: 0.8vw;
+    top: 22vw;
+    left: 72vw;
+    padding-left: 3.5vw;
+    font-size: 3vw;
+  }
+  .sub {
+    background-color: white;
+    height: 3.7vw;
+    width: 4vw;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 3px 4px 3px 0.1px rgb(0 0 0 / 25%);
+    border: none;
+    position: absolute;
+    color: black;
+    border-radius: 0.8vw;
+    top: 22vw;
+    left: 67vw;
+    padding: 0 1vw 2vw 1vw;
+
+    font-size: 3vw;
+  }
+  .add {
+    background-color: white;
+    height: 3.7vw;
+    width: 4vw;
+    box-shadow: 3px 4px 3px 0.1px rgb(0 0 0 / 25%);
+    font-family: "Poppins", sans-serif;
+    border: none;
+    position: absolute;
+    color: black;
+    border-radius: 0.8vw;
+    top: 22vw;
+    left: 83vw;
+    padding: 0 1vw 2vw 1vw;
+
+    font-size: 3vw;
+  }
+  .Next {
+    position: relative;
+    left: 65vw;
+    border-radius: 0.7em;
+    top: 16vw;
+    background-color: white;
+    height: 3.5vw;
+    box-shadow: 3px 4px 3px 0.1px rgb(0 0 0 / 25%);
+    width: 23vw;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+  }
+  .y_shock {
+    position: relative;
+    left: 61vw;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    top: 13vw;
+  }
+}

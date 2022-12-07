@@ -1,0 +1,115 @@
+@import "/styles/variables.scss";
+.guest {
+  .title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    color: white;
+    top: 9.5vw;
+    left: 69vw;
+    font-size: 2.5vw;
+  }
+
+  h5 {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top: -3vw;
+    left: 60.5vw;
+    color: white;
+    font-size: 1vw;
+  }
+  .guest1 {
+    position: relative;
+    top: -9vw;
+  }
+  .guest2 {
+    position: relative;
+    top: -12vw;
+  }
+  .guest3 {
+    position: relative;
+    top: -15vw;
+  }
+  .guest1,
+  .guest2,
+  .guest3 {
+    .name {
+      position: relative;
+      border-radius: 1em;
+      border-color: white;
+      top: -3vw;
+      left: 60vw;
+      width: 34vw;
+
+      height: 1vw;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+      padding: 1.6vw;
+      padding-left: 1.5vw;
+      font-size: 1.2vw;
+      font-family: "Poppins", sans-serif;
+      color: #ada9a9;
+      font-weight: 700;
+    }
+    .get {
+      position: relative;
+
+      top: -4vw;
+      left: 60vw;
+    }
+    .Mobile {
+      position: relative;
+      border-radius: 1em;
+      border-color: white;
+      margin-right: 2vw;
+      width: 16vw;
+      height: 1vw;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+      padding: 1.6vw;
+      padding-left: 1.5vw;
+      font-size: 1.2vw;
+      font-family: "Poppins", sans-serif;
+      color: #ada9a9;
+      font-weight: 700;
+    }
+    .Email {
+      border-radius: 1em;
+      border-color: white;
+
+      width: 16vw;
+      padding: 3em;
+      height: 1vw;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+      padding: 1.6vw;
+      padding-left: 1.5vw;
+      font-size: 1.2vw;
+      font-family: "Poppins", sans-serif;
+      color: #ada9a9;
+      font-weight: 700;
+    }
+  }
+  hr {
+    position: relative;
+    top: -5vw;
+    left: 60.5vw;
+    width: 33vw;
+
+    border: 3px dashed;
+    border-style: none none dashed;
+    color: white;
+    opacity: 1;
+  }
+  .Next {
+    position: relative;
+    left: 67vw;
+    border-radius: 0.7em;
+    top: -17vw;
+    background-color: white;
+    height: 3.5vw;
+    box-shadow: 3px 4px 3px 0.1px rgb(0 0 0 / 25%);
+    width: 23vw;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+  }
+}

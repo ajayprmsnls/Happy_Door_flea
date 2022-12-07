@@ -1,0 +1,39 @@
+@import "/styles/variables.scss";
+.complete {
+  text-align: center;
+  width: 45vw;
+  height: 27vw;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  border-radius: 2vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+  .img {
+    position: relative;
+    text-align: center;
+    padding-top: 3vw;
+  }
+  h3 {
+    font-size: 2.5vw;
+    color: #15a1b8;
+  }
+  h6 {
+    position: relative;
+    color: #15a1b8;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 1.1vw;
+    width: 30vw;
+    padding-bottom: 5vw;
+    left: 7vw;
+  }
+  b {
+    font-weight: 700;
+  }
+}

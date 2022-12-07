@@ -5,13 +5,23 @@ import { FC, useState } from "react";
 import s from "./Body.module.scss";
 import Button from 'antd/es/button';
 import Input from "antd/lib/input";
+import Form from "antd/lib/form/Form";
+import FormItem from "antd/lib/form/FormItem";
+import Page1 from "@components/Pages/Page1";
+import Page2 from "@components/Pages/Page2";
+import Page3 from "@components/Pages/Page3";
+import Page4 from "@components/Pages/Page4";
+import Page5 from "@components/Pages/Page5";
 
+import Page6 from "@components/Pages/Page6";
 
-const [NAME,Mobile,Email]=["NAME","Mobile","Email id"];
 
 const Body: FC = () => {
   
   const [loading,load]=useState(3);
+  function load1(){
+
+  }
   return (
     <div className={`${s.container}`}>
       <div>
@@ -24,7 +34,7 @@ const Body: FC = () => {
         
          
       </div>
-      <div>
+      <div className={`${s.sideimages}`}>
       <div className={`${s.wave}`}> <Image 
          src="/images/waves.png"
          alt="wave"
@@ -43,37 +53,10 @@ const Body: FC = () => {
     <h1>DOOR FLEA</h1>
   </div>
   </div>
-  <div className={`${s.enterdetails}`}>
-    <h2>Enter Details Here!</h2>
-    <>
-    <div className={`${s.inputs}`}>
-        <Input className={`${s.input_box}`}
-          placeholder={NAME}
-          
-        />
-        <Input className={`${s.input_box}`}
-          placeholder={Mobile}
-          
-        
-        />
-        <Input className={`${s.input_box}`}
-          placeholder={Email}
-          
-        
-        />
-        
-      </div>
-      </>
-    <div className={`${s.Next}`} onClick={()=>{load(5)}}></div>
-    <div className={`${s.nextbox}`}>
-      
-      <h3>Next</h3>
-      <div className={`${s.loading}` } >
-        
-      </div>
-    </div>
+  <div>
+    <Page6  />
   </div>
-
+    
   
   </div>
   );
